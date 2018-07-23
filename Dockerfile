@@ -1,5 +1,6 @@
-FROM microsoft/nanoserver:latest
-MAINTAINER Lawrence Bates <lawrence.bates@gmail.com>
+FROM microsoft/windowsservercore:latest
+MAINTAINER Max Kellermeier <max.kellermeier@hotmail.de>
+# original maintainer: Lawrence Bates <lawrence.bates@gmail.com>
 
 # Installs python 3.6.0 and pip 9.0.1
 ADD files/python.zip /
