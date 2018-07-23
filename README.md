@@ -22,7 +22,7 @@ OSError: [WinError -2147467263] Not implemented
 Unfortunately, using the windows core server instead of the nano server blows up the size of the container by *10GB*. But ctypes works with this container base.
 
 # Build
-After cloning the repository from github run:
+After cloning the repository from [github](https://github.com/scimax/python-core-windows) run:
 ```
 docker build -t python-core-windows .
 ```
@@ -54,9 +54,9 @@ ENTRYPOINT ["C:\\Python\\python.exe"]
 
 Container is hosted on Docker Hub:
 
-https://hub.docker.com/r/lbates2000/python-windows/
+https://hub.docker.com/r/scimax/python-core-windows/
 
 ```
-docker pull lbates2000/python-windows
+docker pull scimax/python-core-windows
 ```
 
